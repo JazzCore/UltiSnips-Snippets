@@ -1,0 +1,61 @@
+#Encodings
+snippet cutf8
+# -*- coding: utf-8 -*-
+endsnippet
+
+snippet clatin1
+# -*- coding: latin-1 -*-
+endsnippet
+
+snippet cascii
+# -*- coding: ascii -*-
+endsnippet
+
+snippet imp "Import"
+import ${1:module}
+endsnippet
+
+snippet wh "While loop"
+while ${1:condition}:
+    ${2:# TODO: write code...}
+endsnippet
+
+snippet with "With wrapper"
+with ${1:expr} as ${2:var}:
+    ${3:# TODO: write code...}
+endsnippet
+
+# Ifs
+snippet if "If"
+if ${1:condition}:
+    ${2:# TODO: write code...}
+endsnippet
+
+snippet el "Else"
+else:
+    ${1:# TODO: write code...}
+endsnippet
+
+snippet ei "Else if"
+elif ${1:condition}:
+    ${2:# TODO: write code...}
+endsnippet
+
+# For
+snippet for "For loop"
+for ${1:item} in ${2:items}:
+    ${3:# TODO: write code...}
+endsnippet
+
+#snippet " "Block Comment"
+#"""
+#${1:doc}
+#"""
+#endsnippet
+
+snippet test "Test function"
+def test_${1:function}(self):
+	${0:pass}
+endsnippet
+
+# vim:ft=snippets:
